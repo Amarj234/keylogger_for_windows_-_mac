@@ -25,7 +25,7 @@ pip install pynput google-auth google-auth-oauthlib google-api-python-client
 
 
 .
-├── keylogger.py           # Main script
+├── key.py           # Main script
 ├── credentials.json       # OAuth2 credentials (from Google Cloud Console)
 ├── token.pickle           # Generated after first OAuth login
 ├── keystrokes.txt         # Log file (generated at runtime)
