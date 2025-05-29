@@ -15,6 +15,19 @@ This project is an educational Python-based keyboard activity logger designed fo
 - Packaged as a standalone `.exe` using PyInstaller.
 
 ---
+🔐 Google Drive Setup
+Go to Google Cloud Console.
+
+Create a new project.
+
+Enable the Google Drive API.
+
+Create OAuth 2.0 credentials (credentials.json) for a desktop app.
+
+Download the credentials.json file and place it in your project directory.
+
+On first run, a browser window will ask for permission. After authorization, a token.pickle will be saved for future use.
+
 
 ## 🧩 Dependencies
 
@@ -25,7 +38,7 @@ pip install pynput google-auth google-auth-oauthlib google-api-python-client
 
 
 .
-├── key.py           # Main script
+├── key.py                 # Main script
 ├── credentials.json       # OAuth2 credentials (from Google Cloud Console)
 ├── token.pickle           # Generated after first OAuth login
 ├── keystrokes.txt         # Log file (generated at runtime)
