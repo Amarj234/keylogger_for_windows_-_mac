@@ -1,4 +1,3 @@
-# keylogger_for_windows_-_mac
 
 # 📋 Keyboard Activity Logger (With User Consent)
 
